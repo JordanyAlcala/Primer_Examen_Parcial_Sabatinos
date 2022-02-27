@@ -1,0 +1,68 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyObus7qmZR53hIsvvqK9j2u",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/JordanyAlcala/Primer_Examen_Parcial_Sabatinos/blob/main/Primer_Examen_Parcial_Sabatinos\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero_ingresado = int(input(\"ingrese un número al azar: \"))\n",
+        "suma = 0\n",
+        "for numero in range(numero_ingresado):\n",
+        "  suma = suma + (numero + 1)\n",
+        "print(\"la suma de todos los números desde el 1 hasta el número dado por el usuario es: \", suma)"
+      ],
+      "metadata": {
+        "id": "8KsiQSgsaeQL",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "d4b366a7-e27e-431b-f2bf-f3b771fbc625"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ingrese un número al azar: 5\n",
+            "la suma de todos los números desde el 1 hasta el número dado por el usuario es:  15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "lILyvhBVbGpm"
+      }
+    }
+  ]
+}
